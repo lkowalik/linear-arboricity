@@ -1,0 +1,7 @@
+5
+u 9 x y z v
+x 9 u y
+y 3 x u z
+z 9 u y
+v 2 u
+edge u v

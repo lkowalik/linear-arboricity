@@ -1,0 +1,10 @@
+8
+u 9 a b c d e f v
+a 9 b u
+b 3 a u c
+c 9 b u 
+d 9 e u
+e 3 d u f
+f 9 e u
+v 3 u
+edge u v

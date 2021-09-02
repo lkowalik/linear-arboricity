@@ -1,0 +1,7 @@
+5
+u 9 a b c v
+a 3 b u
+b 9 a u c
+c 2 u b
+v 3 u
+edge u c
