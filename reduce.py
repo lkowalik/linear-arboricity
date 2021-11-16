@@ -49,7 +49,7 @@ def color_inner(free_colors, paths, edge_index, remove_edge=True):
             # color the remaining edges
             success = color_inner(free_colors, new_paths, edge_index + 1, remove_edge)
 
-            # uncolor a,b and restore the previous state of free_colors and paths.
+            # uncolor a,b and restore the previous state of free_colors (note that paths was copied and was not changed)
             free_colors[a].append(color)
             free_colors[b].append(color)
 
